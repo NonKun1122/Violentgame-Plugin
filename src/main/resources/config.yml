@@ -1,0 +1,28 @@
+# MurderGame Configuration
+# Author: nonkungch
+
+settings:
+  min-players: 2
+  game-time: 300 # seconds (5 minutes)
+  start-countdown: 30 # seconds
+
+maps:
+  map1:
+    display-name: "Space Station"
+    lobby:
+      world: "world"
+      x: 100.0
+      y: 64.0
+      z: 100.0
+    exit:
+      world: "world"
+      x: 150.0
+      y: 64.0
+      z: 150.0
+    spawns:
+      - "world,110,64,110"
+      - "world,120,64,120"
+      - "world,130,64,130"
+      - "world,140,64,140"
+      - "world,105,64,105"
+      - "world,115,64,115"
